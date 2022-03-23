@@ -25,7 +25,7 @@ nav a{
     color: white;
     display: inline-block;
     text-decoration: none;
-    margin-left: 40px;
+    margin-left: 25px;
     margin-top: 60px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -56,10 +56,10 @@ nav a:hover{
     font-weight: 700;
     text-align: center;
     margin: auto;
-    font-size: 5em;
+    font-size: 6em;
     text-shadow: 20px 20px 30px black;
-    padding-top: 200px;
-    padding-bottom: 40px;
+    padding-top: 350px;
+    padding-bottom: 100px;
 }
 
 .legenda{
@@ -67,7 +67,7 @@ nav a:hover{
     color: white;
     font-weight: 300;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.7em;
     text-shadow: 2px 4px 5px black;
 }
 
