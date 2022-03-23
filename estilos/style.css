@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-image: url('myprofile/imagens/background.png');
+    bottom: 0;
+    background-position: center;
+    background-position: top;
+}
+
+header{
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.219);
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: black;
+    background-color: rgb(105, 105, 105);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.principal{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    font-size: 5em;
+    text-shadow: 20px 20px 30px black;
+    padding-top: 200px;
+    padding-bottom: 40px;
+}
+
+.legenda{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 20px 20px 30px black;
+}
+
+.botoes{
+    height: 40px;
+    width: 50%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px; 
+    text-align: center;   
+}
+
+button{
+    height: 40px;
+    width: 150px;
+    background-color: rgba(48, 48, 48, 0.796);
+    border-radius: 15px;
+    border: 0;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+}
+
+button a {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+button:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(241, 241, 241, 0.87);
+}
+
+button:hover a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
