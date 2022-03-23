@@ -67,7 +67,7 @@ nav a:hover{
     font-weight: 300;
     text-align: center;
     font-size: 1.7em;
-    text-shadow: 2px 4px 5px black;
+    text-shadow: 0 0 1em rgb(0, 0, 0);
 }
 
 .botoes{
@@ -146,6 +146,7 @@ img{
     height: auto;
     max-width: 1000px;
     margin: 0 auto;
+    box-shadow: 0px 10px 10px black
 }
 
 .sector2 p{
@@ -176,6 +177,7 @@ img{
     height: auto;
     margin: 0 auto;
     max-width: 1000px;
+    box-shadow: 0px 10px 10px black
 }
 
 .bgst4{
@@ -189,6 +191,7 @@ img{
     height: auto;
     max-width: 1000px;
     margin: 0 auto;
+    box-shadow: 0px 10px 10px black
 }
 
 footer{
