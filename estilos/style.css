@@ -7,10 +7,15 @@
     padding:0;
 }
 
+img{
+    max-width: 100%;
+    display: block;
+}
+
 body{
     background-image: url(../imagens/background2.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.999);
     background-position: center center;
@@ -120,7 +125,7 @@ section{
     background-color: rgba(0, 0, 0, 0.733);
 }
 
-section h1{
+h1{
     font-family: 'Lato', sans-serif;
     color: white;
     font-weight: 700;
@@ -138,8 +143,20 @@ section p{
     line-height: 1.5em;
 }
 
-.projetos{
+.titulos-secao{
+    margin-bottom: 30px;
+}
 
+.projetos{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.projetos > div{
+    flex: 1 1 200px;
+    margin: 0 10px;
 }
     
 
