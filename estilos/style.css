@@ -137,11 +137,11 @@ img{
 }
 
 .bgst2{
-    background-color: rgb(78, 78, 78);
+    background-color: black;
 }
 
 .sector2{
-    background-color: rgb(78, 78, 78);
+    background-color: black;
     background-position: center;
     bottom: 0;
     height: auto;
@@ -163,11 +163,11 @@ img{
 }
 
 .bgst3{
-    background-color: rgb(109, 109, 109);
+    background-color: #292c35;
 }
 
 .sector3{
-    background-color: rgb(109, 109, 109);
+    background-color: #292c35;
     background-position: center;
     bottom: 0;
     height: auto;
@@ -177,11 +177,11 @@ img{
 }
 
 .bgst4{
-    background-color: rgb(145, 0, 0);
+    background-color: rgb(163, 163, 163);
 }
 
 .sector4{
-    background-color: rgb(145, 0, 0);
+    background-color: rgb(163, 163, 163);
     background-position: center;
     bottom: 0;
     height: auto;
