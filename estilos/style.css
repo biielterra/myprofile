@@ -47,7 +47,6 @@ nav a:hover{
     background-position: center;
     bottom: 0;
     height: 900px;
-    border: solid tomato;
 }
 
 .principal{
@@ -122,8 +121,8 @@ h1{
 p{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    text-indent: 30px;
-    margin: 15px 0px;
+    text-indent: 20px;
+    margin: 0px 0px;
     font-weight: lighter;
     text-align: justify;
     font-size: 1.1em;
@@ -145,9 +144,13 @@ img{
     background-position: center;
     bottom: 0;
     height: auto;
-    border: solid tomato;
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.sector2 p{
+    text-indent: 0px;
+    padding: 0px;
 }
 
 .flex{
@@ -171,9 +174,8 @@ img{
     background-position: center;
     bottom: 0;
     height: auto;
-    max-width: 1000px;
-    border: solid tomato;
     margin: 0 auto;
+    max-width: 1000px;
 }
 
 .bgst4{
@@ -187,5 +189,11 @@ img{
     height: auto;
     max-width: 1000px;
     margin: 0 auto;
-    border: solid tomato;
+}
+
+footer{
+    background-color: black;
+}
+footer p{
+    text-align: center;
 }
