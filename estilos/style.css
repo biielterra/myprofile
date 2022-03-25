@@ -2,6 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+:root{
+    --cor01: #0000;
+    --cor02: #14213d;
+    --cor03: #FCA311;
+    --cor04: #e5e5e5;
+    --cor05: white;
+}
+
 *{
     margin: 0;
     padding:0;
@@ -22,14 +30,14 @@ nav{
 
 
 nav a{
-    color: white;
+    color: var(--cor05);
     display: inline-block;
     text-decoration: none;
-    margin-left: 25px;
-    margin-top: 60px;
+    margin-left: 20px;
+    margin-top: 40px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-    padding: 10px 15px;
+    padding: 8px 12px;
 }
 
 nav a:hover{
