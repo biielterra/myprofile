@@ -58,7 +58,6 @@ nav a:hover{
     background-size: contain;
     background-color: black;
     background-position: center;
-    border: 1px solid tomato;
     bottom: 0;
     height: 1100px;
 }
@@ -163,7 +162,6 @@ img{
     max-width: 1000px;
     margin: 0 auto;
     box-shadow: 0px 10px 10px black;
-    border: 1px solid tomato;
 }
 
 .sector2 p{
@@ -189,7 +187,6 @@ img{
 
 .sector3{
     background-color: var(--cor02);
-    border: 1px solid tomato;
     background-position: center;
     bottom: 0;
     height: auto;
@@ -205,7 +202,6 @@ img{
 .sector4{
     background-color: var(--cor03);
     background-position: center;
-    border: 1px solid tomato;
     bottom: 0;
     height: auto;
     max-width: 1000px;
