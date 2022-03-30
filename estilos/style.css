@@ -64,16 +64,6 @@ nav a:hover{
     background-position: center;
     height: 1200px;
 }
-/*
-.img-hover{
-    opacity: 70%;
-    transition: 0.7s;
-    border-radius: 15px;
-}
-
-.img-hover:hover{
-    opacity: 100%;
-}*/
 
 .principal{
     font-family: 'Lato', sans-serif;
@@ -208,44 +198,16 @@ img{
     border: 2px solid coral;
 }
 
-.grid-sobre{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.grid-sobre1{
-    border: 1px solid white;
-}
-
-.grid-sobre p {
-    max-width: 45vw;
-    min-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.grid-sobre1 button{
-    margin-top: 50px;
-}
-
-.btn{
-    max-width: 450px;
-    border: 2px solid purple;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-}
-
-.btn button{
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.grid-sobre img{
-    margin: 0px auto;
-    max-width: 350px;
-    margin-bottom: 50px;
+.sector3 ul{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-indent: 20px;
+    margin: 0px 0px;
+    font-weight: normal;
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding: 10px;
 }
 
 .bgst4{
