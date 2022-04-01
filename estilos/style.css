@@ -62,7 +62,7 @@ nav a:hover{
     background-size: contain;
     background-color: black;
     background-position: center;
-    height: 1200px;
+    height: 1150px;
 }
 
 .principal{
@@ -257,6 +257,7 @@ img{
     text-decoration: none;
     position: absolute;
     background-color: black;
+    border-radius: 5px;
     font-size: 35px;
     width: 40px;
     height: 40px;
