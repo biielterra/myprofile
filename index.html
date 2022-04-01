@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +23,7 @@
             <p class="legenda">Estudante de Desenvolvimento Web!</p>
 
             <div class="botoes">
-                <button><a href=""> Portifolio</a></button>
+                <button><a href=""> Exercícios</a></button>
                 <button><a href="#"> Saiba Mais</a></button>
             </div>
         </section>
@@ -33,7 +33,7 @@
             <section class="sector2">
                 <h1 id="pageprojetos">Projetos</h1>
                 <section class="flex">
-                    <div class="img-hover">
+                   <!-- <div class="img-hover">
                         <img src="imagens/img-trabalhadas/img1.png" alt="">
                         <p>Legenda</p>
                     </div>
@@ -48,11 +48,11 @@
                     <div class="img-hover"> 
                         <img src="imagens/img-trabalhadas/img4.png" alt="">
                         <p>Legenda</p>
-                    </div class="img-hover">
+                    </div> -->
                     <div class="img-hover">
                         <img src="imagens/img-trabalhadas/img5.png" alt="">
                         <p>Legenda</p>
-                    </div>
+                    </div> 
                     <div class="img-hover">
                         <img src="imagens/img-trabalhadas/img6.png" alt="">
                         <p>Legenda</p>
@@ -64,23 +64,64 @@
         <div class="bgst3">
             <section class="sector3">
                 <h1 id="sobre">Sobre</h1>
-                <p>
-                    Meu nome é Gabriel Vinicius, sou estudante do curso de Análise e Desenvolvimento de Sistemas na Universidade Anhembi Morumbi. Sou apaixonado por desenvolvimento Front-end mas também quero aprender outras linguagens.
+               <!-- <p>
+                    Meu nome é Gabriel Vinicius tenho 27 anos, sou estudante do curso de Análise e Desenvolvimento de Sistemas na Universidade Anhembi Morumbi. Sou apaixonado por desenvolvimento Front-end mas também quero aprender outras linguagens.
                     Atualmente possuo conhecimentos em HTML5 e CSS3.
                     Este é meu primeiro projeto utilizando os conhecimentos recentemente adquiridos através de cursos online e também consultando a documentação. Em breve, vou ajustando o projeto. 
-                </p>
+                </p>-->
 
-    
+                <div class="flex-sobre">
+                    <div class="flex-sobre1">
+                        <p>Meu nome é Gabriel Vinicius tenho 27 anos, sou estudante do curso de Análise e Desenvolvimento de Sistemas na Universidade Anhembi Morumbi. Sou apaixonado por desenvolvimento Front-end mas também quero aprender outras linguagens.
+                        Atualmente possuo conhecimentos em HTML5 e CSS3.
+                        Este é meu primeiro projeto utilizando os conhecimentos recentemente adquiridos através de cursos online e também consultando a documentação. Em breve, vou ajustando o projeto.</p>
+                    </div>
+                    <div class="flex-sobre2">
+
+                        <button>Ver meu CV</button>
+                        <button>Baixar CV em PDF</button>
+
+                    </div>
                 </div>
+                        
             </section>
         </div>
 
         <div class="bgst4">
             <section class="sector4">
                 <h1 id="contato">Contato</h1>
-                <p>Entre em contato comigo!</p>
-                <p>Telefone: 11 98430-9338</p>
-                <p>E-mail: gabriel_vinicius17@hotmail.com</p>
+                <div class="contato-container">
+                    <div class="contato-item1">
+                        <form action="">
+                            <fieldset class="grupo">
+                                <div class="campo">
+                                    <p id="pcontato">Entre em contato comigo!</p><br>
+                                    <label for="nome">Nome</label>
+                                    <input type="text" name="nome" id="nome">
+                                    <br><br>
+                                    <label for="email">Email</label>
+                                    <input type="email"><br><br>
+                                </div>
+
+                                <div class="campo">
+                                    <label for="mensagem">Mensagem:</label>
+                                    <textarea name="mensagem" id="mensagem" style="width: 26em;" rows="10"></textarea>
+                                </div>
+
+                                <div class="div-btn-submit"><button class="btn-submit">Enviar</button></div>
+
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="contato-item2">
+                        <div class="contato-item2-blk">
+                            <p id="pcontatos2"><strong>Nossos contatos</strong></p>
+                            <p>11 98430-9338</p>
+                            <p>gabriel_vinicius17@hotmail.com</p>
+
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
     </div>
