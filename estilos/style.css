@@ -204,10 +204,6 @@ img{
     justify-content: center;
 }
 
-.flex-sobre1{
-    min-width: 300px;
-}
-
 .flex-sobre2 button{
     background-color: var(--cor03);
     color: var(--cor05);
@@ -283,15 +279,13 @@ img{
 }
 
 .contato-container{
+    width: 100%;
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
     flex-wrap: wrap;
     justify-content: space-between;
 
-}
-
-.contato-item1{
-    margin-left: 20px;
 }
 
 #pcontato{
@@ -304,12 +298,6 @@ img{
     font-size: 1.5em;
 }
 
-.contato-item2{
-    align-items: center;
-    max-width: 500px;
-    min-width: 300px;
-    margin: 0px auto;
-}
 
 .contato-item2-blk p{
     text-align: center;
@@ -329,6 +317,7 @@ fieldset{
 }
 
 .campo{
+    width: 100%;
     margin-bottom: 1em;
     
 }
@@ -355,7 +344,7 @@ fieldset{
 }
 
 input{
-    width: 26em;
+    width: 100%;
     border-radius: 5px;
     height: 1.5em;
     font-family: 'Lato', sans-serif;
@@ -363,6 +352,7 @@ input{
 }
 
 textarea{
+    width: 100%;
     border-radius: 5px;
     font-family: 'Lato', sans-serif;
     font-size: 1em;
@@ -394,4 +384,90 @@ footer p{
     text-align: center;
     color: var(--cor02);
     font-weight: bold;
+}
+
+.open i {
+    font-size: 36px;
+    color: #fff;
+    display: none;
+}
+
+@keyframes slideRight {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+@media (max-width: 600px) {
+    .principal {
+        padding-top: 150px;
+    }
+    .open i{
+        display: block;
+    }
+    .contato-item {
+        width: 100%;
+    }
+    form {
+        display: flex;
+        justify-content: center;
+    }
+    fieldset {
+        padding: 10px;
+    }
+    #mensagem {
+        width: 100%;
+    }
+    input {
+        width: 100%;
+    }
+    .open {
+        display: flex;
+    }
+    header {
+        position: relative;
+    }
+    .open {
+        position: absolute;
+        right: 20px;
+        top: 13px;
+        cursor: pointer;
+    }
+    nav {
+        flex-direction: column;
+        background: rgba(0, 0, 0);
+        text-align: center;
+        height: 100vh;
+        font-size: 37px;
+        display: none;
+        position: relative;
+        animation: slideRight 1s ease 0s 1 normal forwards;
+        padding-top: 88px;
+    }
+    .close i {
+        font-size: 36px;
+        color: #fff;
+        position: absolute;
+        right: 26px;
+        top: 8px;
+    }
+}
+
+@media (max-width: 280px) {
+    .principal {
+        font-size: 40px;
+    }
+    .flex-sobre {
+        width: 92%;
+        justify-content: inherit;
+    }
+ 
+    .flex-sobre1 p{
+        width: 100%
+    }
 }
